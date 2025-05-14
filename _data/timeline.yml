@@ -1,15 +1,25 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
+- title: PhD Student, Centrale Méditerranée, France
+  from: Feb. 2023
+  to: present
+  description: I am currently pursuing my Ph.D. at the Laboratory of Computer Science and Systems (LIS) at Centrale Méditerranée in Marseille    under the supervision of Dr. Ali Khalighi and Dr. Jean-Marc Boï, with a particular focus on the physical layer of underwater wireless optical communication (UWOC) and water-to-air (W2A) systems. My research primarily involves modeling optical wireless channels and leveraging artificial intelligence for signal detection, demodulation, and decoding in UWOC and W2A channels.
+
+- title: Temporary Teacher, Centrale Méditerranée / Aix-Marseille University, France
+  from: Sept. 2023
+  to: present
+  description: In parallel with my research, I teach as a part-time lecturer at Centrale Méditerranée and Aix-Marseille University, where I teach modules on telecoms and IoT. 
+
+- title: Data Analyst, Décathlon El-Djazaïr, Algeria
+  from: Jul. 2022
+  to: Jan. 2023
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
+- title: Student, Ecole Nationale Polytechnique, Algeria
+  from: Sept. 2017
+  to: Jul. 2022
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
