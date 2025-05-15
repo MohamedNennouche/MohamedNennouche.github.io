@@ -1,7 +1,8 @@
 ### Site Settings ###
 title               : Mohamed Nennouche
 description         : >-
-                      I am a PhD. student at Centrale Méditerranée in underwater wireless optical communication.
+                      I am a PhD. student at Centrale Méditerranée in underwater wireless optical communication. 
+                      <br><a href="https://github.com/MohamedNennouche/MohamedNennouche/blob/master/files/cv.pdf" target="_blank">My CV</a>
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : MohamedNennouche/MohamedNennouche.github.io    # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -18,7 +19,8 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - pages/publications/csndsp2024.html
+  - pages/blog.html
+  - pages/publications/csndsp_detail.html
 
 
 ### Author Info ###

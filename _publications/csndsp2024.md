@@ -1,5 +1,5 @@
 ---
-name: Application of Machine Learning to Signal Detection in Underwater Wireless Optical Communication Links
+name: Application of Machine Learning to Signal Detection in Underwater Wireless Optical Communication Links.
 tools: CSNDSP 2024
 id: csndsp2024
 image: ../images/publications/csndsp_system.png
