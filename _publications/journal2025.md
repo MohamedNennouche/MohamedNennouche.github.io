@@ -1,12 +1,12 @@
 ---
-name: Efficient Semantic-Aware Underwater Optical Wireless Image Transmission.
-tools: In preparation
-id: letter2025
+name: Water-to-Air Optical Wireless Channel Modeling Considering Surface Waves and Air Bubbles Effects
+tools: Submitted
+id: journal2025
 image: ../images/publications/csndsp_system.png
 description: <b>Mohamed Nennouche</b>, Mohammad Ali Khalighi, Alexis Dowhuszko, Djamal Merad, Jean-Marc Boï
-external_url: letter2025
+external_url: 
 code: ''
 paper: 'https://ieeexplore.ieee.org/abstract/document/10636416/'   
-webpage: 'https://MohamedNennouche.github.io/publications/csndsp2024'
+webpage: ''
 add: 'true'
 ---
