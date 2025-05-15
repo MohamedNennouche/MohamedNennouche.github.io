@@ -1,0 +1,47 @@
+
+<div class="card-rows m-3 mt-5">
+
+    <!-- Local publications -->
+    {% for publication in site.publications %}
+  
+      {%- assign publication_type  = "local" -%}
+      {%- assign publication_id    = publication.name | slugify -%}
+      {%- assign publication_ids    = publication.id | slugify -%}
+      {%- assign publication_img   = publication.image -%}
+      {%- assign publication_name  = publication.name -%}
+      {%- assign publication_desc  = publication.description -%}
+      {%- assign publication_tools = publication.tools -%}
+      {%- assign publication_github = publication.code -%}
+      {%- assign publication_paper = publication.paper -%}
+      {%- assign publication_webpage = publication.webpage -%}
+      {%- assign add = publication.add -%}
+      {%- if publication.external_url -%}
+        {%- assign publication_url = publication.external_url -%}
+        {%- assign external    = true -%}
+      {%- else -%}
+        {%- assign publication_url = publication.url | relative_url -%}
+        {%- assign external    = false -%}
+      {%- endif -%}
+  
+      {% include publications/publication-card.html %}
+  
+    {% endfor %}
+  
+  </div>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        var id = this.id;
+        var content = document.getElementById("content-" + id.split("-")[1]+"-"+id.split("-")[2]); // Extract the publication ID
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
