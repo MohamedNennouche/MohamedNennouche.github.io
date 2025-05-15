@@ -106,5 +106,3 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
-  - pages/publications/*.md
-  - pages/publications/*.html
