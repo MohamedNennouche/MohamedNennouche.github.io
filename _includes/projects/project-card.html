@@ -14,6 +14,15 @@
           </h5>
           <p id="{{ project_id }}-desc" class="card-text">{{ project_desc }}</p>
           <div id="{{ project_id }}-tools" class="tags card-text">
+            {%- if add == 'true' -%}
+              {%- if project_webpage != '' -%}
+              <span class="btn" onclick="window.location.href='{{ project_webpage }}';">
+                <span class="icon">
+                  <i class="fas fa-bolt"></i>
+                </span>
+                <span>Project Page</span>
+              </span>
+              {%- endif -%}
             <span class="btn" onclick="window.location.href='{{ project_paper }}';">
               <span>
                 <i class="fas fa-file-pdf"></i>
