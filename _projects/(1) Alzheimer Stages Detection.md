@@ -1,11 +1,16 @@
 ---
-name: Alzheimer Stages Detection (Msc thesis)
-# tools: [Deep Learning, Features Fusion, IRM, Classification]
-image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: As part of my final year project at the Ecole Nationale Polytechnique, I developed a model for classifying different levels of Alzheimer's disease dementia based on MRI images, using a novel architecture consisting of a feature fusion between a CNN and a HOG, followed by a KNN classifier, with better results than the state of the art.
-external_url: 
-code: ''
-paper: ''
-webpage: 'https://MohamedNennouche.github.io/publications/csndsp2024.html'
-add: 'true'
+name: V-SLAM on Lie groups (MSc thesis)  
+tools: [Lie theory, Lyapunov stability analysis]
+image: ../images/publications/letter1_schema.png
+description: 'This work focuses on leveraging the potential of Lie theory in state estimation to derive
+a nonlinear approach for solving the Simultaneous Localization And Mapping problem.
+As a matter of fact, the groups SE(3) and SO(3) have proven to be very convenient
+in representing body motions in 3D space. Therefore, it becomes possible to design
+nonlinear observers for solving the SLAM problem using Lyapunov stability analysis. Our contribution consists of endowing the observer with two practical features: a System re-dimensioning
+feature, to give a vehicle the ability to dynamically change the dimension of the state
+matrix, and a Fault Detection and Isolation block that detects and corrects faulty mea-
+surements from the camera and the IMU used to implement the proposed observer.'
+external_url: ''
+code: 'https://github.com'
+paper: 'https://mohamednennouche.github.io/projects/alzheimer.html'
 ---
