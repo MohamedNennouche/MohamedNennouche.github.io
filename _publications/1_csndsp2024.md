@@ -1,7 +1,7 @@
 ---
 name: Application of Machine Learning to Signal Detection in Underwater Wireless Optical Communication Links.
 tools: CSNDSP 2024
-id: 1-csndsp2024
+id: publications-1-csndsp2024_bibtex
 image: ../images/publications/csndsp_system.png
 description: <b>Mohamed Nennouche</b>, Mohammad Ali Khalighi, Alexis Dowhuszko, Djamal Merad, Jean-Marc Boï
 external_url: csndsp2024
