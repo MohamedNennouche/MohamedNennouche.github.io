@@ -44,4 +44,33 @@
         }
       });
     }
+
+    document.addEventListener('DOMContentLoaded', function() {
+    var coll = document.getElementsByClassName("collapsible");
+    
+    for (var i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            // L'ID du bouton est "collapse-{{publication_ids}}"
+            // On veut récupérer "{{publication_ids}}"
+            var buttonId = this.id;
+            var pubId = buttonId.replace("collapse-", "");
+            
+            // Le contenu a l'ID "content-{{publication_ids}}"
+            var content = document.getElementById("content-" + pubId);
+            
+            if (content) {
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+                
+                // Optionnel : Toggle une classe pour l'animation
+                this.classList.toggle("active");
+            } else {
+                console.error("Content not found for ID: content-" + pubId);
+            }
+        });
+    }
+});
   </script>

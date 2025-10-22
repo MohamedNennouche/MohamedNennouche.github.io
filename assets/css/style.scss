@@ -334,5 +334,33 @@ iframe{
     touch-action: manipulation;
     white-space: nowrap;
   }
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background-color: #f1f1f1;
+    padding: 0 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.collapsible-content pre {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.collapsible.active {
+    background-color: #555;
+}
+
+.collapsible:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
   
 @import "portfolYOU";
