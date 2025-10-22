@@ -1,7 +1,7 @@
 ---
 name: Semantic Underwater Optical Wireless Communication Using Variational Autoencoders.
 tools: Submitted
-id: commNet2025
+id: publications-4-commnet2025
 image: ../images/publications/semantic_paper.png
 description: <b>Mohamed Nennouche</b>, Mohammad Ali Khalighi, Alexis Dowhuszko, Djamal Merad
 external_url: commNet2025
